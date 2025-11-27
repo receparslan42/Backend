@@ -2,7 +2,7 @@ var mongoose = require("mongoose");
 
 // Database URI
 //var dbURI = "mongodb://localhost/add_venue";
-var dbURI = "mongodb+srv://test:test@addvenue.bh1dnqj.mongodb.net/"
+var dbURI = "mongodb+srv://test:test@addvenue.bh1dnqj.mongodb.net/?appName=AddVenue"
 mongoose.connect(dbURI);
 
 // When successfully connected

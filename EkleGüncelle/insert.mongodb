@@ -1,4 +1,4 @@
-const database = "test";
+const database = "venueDB";
 use(database);
 db.venues.insertOne({
   name: "Trigo Bakery Cafe",
